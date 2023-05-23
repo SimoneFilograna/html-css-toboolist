@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.title {
+    display: inline-block;
+    font-size: 50px;
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+.container{
+    padding: 20px;
+}
