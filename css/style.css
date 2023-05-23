@@ -30,7 +30,7 @@ body{
     background-color: rgb(238, 237, 237);
 }
 
-.container-button{
+.menu-button{
     width: 900px;
     margin: auto;
     margin-top: 50px;
@@ -38,15 +38,44 @@ body{
 }
 
 .button{
-    width: 90px;
     height: 30px;
     border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    
 }
 
 .first{
-    margin-left: 30px;
+    width: 90px;
+    margin-left: 40px;
     background-color: rgba(0, 132, 255, 0.607);
     color: white;
     border: none;
-    text-align: center;
+}
+
+.second{
+    width: 110px;
+    border-color: grey;
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+}
+
+.todolist{
+    background-color: white;
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    margin-top: 2px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.first-list{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.general{
+    list-style-image: url("../img/arrow-down-solid.svg");
 }
