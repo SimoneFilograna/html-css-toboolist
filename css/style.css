@@ -94,6 +94,7 @@ body{
     font-size: 20px;
     font-weight: 200px;
     padding: 10px 0 10px;
+    vertical-align: middle;
 }
 
 .editorial{
@@ -106,4 +107,51 @@ body{
     border-radius: 12px;
     text-align: center;
     vertical-align: middle;
+}
+
+.violet{
+    width: 80px;
+    height: 25px;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(160, 75, 206);
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cross{
+    font-size: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.green{
+    width: 80px;
+    height: 25px;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(23, 108, 55);
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.orange{
+        width: 80px;
+        height: 25px;
+        display: inline-block;
+        font-size: 15px;
+        color: white;
+        background-color: rgb(255, 136, 0);
+        border-radius: 12px;
+        text-align: center;
+        vertical-align: middle;
 }
