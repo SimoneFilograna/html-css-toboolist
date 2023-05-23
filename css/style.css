@@ -63,7 +63,6 @@ body{
 .todolist{
     background-color: white;
     width: 900px;
-    height: 300px;
     margin: auto;
     margin-top: 2px;
     padding-left: 40px;
@@ -145,13 +144,37 @@ body{
 }
 
 .orange{
-        width: 80px;
-        height: 25px;
-        display: inline-block;
-        font-size: 15px;
-        color: white;
-        background-color: rgb(255, 136, 0);
-        border-radius: 12px;
-        text-align: center;
-        vertical-align: middle;
+    width: 80px;
+    height: 25px;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(255, 136, 0);
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.pink{
+    width: 80px;
+    height: 25px;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(209, 99, 143);
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.outgreen{
+    width: 80px;
+    height: 25px;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(126, 227, 25);
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: middle;
 }
